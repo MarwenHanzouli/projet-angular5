@@ -12,4 +12,4 @@
   </div>
 </div>
 <h2>Mes appareils</h2>
-<p>Mis à jour : {{ lastUpdate | date | lowercase  }}</p>
+<p>Mis à jour : {{ lastUpdate | async | date: 'yMMMMEEEEd' | uppercase }}</p>
