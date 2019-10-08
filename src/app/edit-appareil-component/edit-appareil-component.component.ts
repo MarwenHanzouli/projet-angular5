@@ -15,5 +15,7 @@ export class EditAppareilComponentComponent implements OnInit {
   }
   onSubmit(form: NgForm) {
     console.log(form.value);
+    const name = form.value['name'];
+    const status = form.value['status'];
   }
 }
