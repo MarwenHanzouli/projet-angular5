@@ -20,15 +20,15 @@ import { UserListComponent } from './user-list/user-list.component';
 import { NewUserComponent } from './new-user/new-user.component';
 import { HttpClientModule } from '@angular/common/http';
 const appRoutes: Routes = [
-  { path: 'appareils', canActivate: [AuthGuard], component: AppareilViewComponent },
-  { path: 'appareils/:id', canActivate: [AuthGuard], component: SingleAppareilComponent },
-  { path: 'edit', canActivate: [AuthGuard], component: EditAppareilComponentComponent },
-  { path: 'users', component: UserListComponent },
-  { path: 'new-user', component: NewUserComponent },
-  { path: 'auth', component: AuthComponent },
-  { path: '', component: AppareilViewComponent },
-  { path: 'not-found', component: FourOhFourComponent },
-  { path: '**', redirectTo: 'not-found' }
+  // { path: 'appareils', canActivate: [AuthGuard], component: AppareilViewComponent },
+  // { path: 'appareils/:id', canActivate: [AuthGuard], component: SingleAppareilComponent },
+  // { path: 'edit', canActivate: [AuthGuard], component: EditAppareilComponentComponent },
+  // { path: 'users', component: UserListComponent },
+  // { path: 'new-user', component: NewUserComponent },
+  // { path: 'auth', component: AuthComponent },
+  // { path: '', component: AppareilViewComponent },
+  // { path: 'not-found', component: FourOhFourComponent },
+  // { path: '**', redirectTo: 'not-found' }
 ];
 
 @NgModule({
