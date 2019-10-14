@@ -19,6 +19,7 @@ import { EditAppareilComponentComponent } from './edit-appareil-component/edit-a
 import { UserListComponent } from './user-list/user-list.component';
 import { NewUserComponent } from './new-user/new-user.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FirstDirective } from './first.directive';
 const appRoutes: Routes = [
   // { path: 'appareils', canActivate: [AuthGuard], component: AppareilViewComponent },
   // { path: 'appareils/:id', canActivate: [AuthGuard], component: SingleAppareilComponent },
@@ -42,7 +43,8 @@ const appRoutes: Routes = [
     FourOhFourComponent,
     EditAppareilComponentComponent,
     UserListComponent,
-    NewUserComponent
+    NewUserComponent,
+    FirstDirective
   ],
   imports: [
     BrowserModule,
