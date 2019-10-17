@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class MonPremierComponent implements OnInit {
 
   constructor() { }
-
+  x=5;
   ngOnInit() {
   }
 
